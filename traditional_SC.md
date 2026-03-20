@@ -1,6 +1,6 @@
 # Traditional Semantic Communication (PyTorch)
 
-This document is the **single consolidated project guide** for the traditional semantic communication implementation in `semantic_comm_data_basics.ipynb`.
+This document is the **single consolidated project guide** for the traditional semantic communication implementation in `traditional_SC.ipynb`.
 
 It combines a clean explanation-first structure with complete technical details for implementation, training, evaluation, and practical usage.
 
@@ -56,8 +56,8 @@ Instead of corrupting raw words directly, noise is injected in **continuous late
 
 ```text
 BTP_Thesis work/
-├── semantic_comm_data_basics.ipynb       # Main traditional semantic communication notebook
-├── Traditional_semantic_communication.md # This consolidated documentation
+├── traditional_SC.ipynb                  # Main traditional semantic communication notebook
+├── traditional_SC.md                     # This consolidated documentation
 ├── europarl/                             # Local Europarl-style corpus root
 │   └── en/en/*.txt                       # Text files used for training/evaluation
 ├── .venv/                                # Local Python environment (optional)
@@ -210,7 +210,7 @@ This indicates better semantic recovery under cleaner channel conditions.
 
 ## 9) How to Run
 
-1. Open `semantic_comm_data_basics.ipynb`.
+1. Open `traditional_SC.ipynb`.
 2. Ensure local text files are available at `europarl/en/en`.
 3. Run cells from top to bottom.
 4. Inspect:
@@ -277,6 +277,6 @@ For quick iteration, reduce epochs and evaluation batch limits.
 
 This document covers only the traditional semantic communication pipeline in:
 
-- `semantic_comm_data_basics.ipynb`
+- `traditional_SC.ipynb`
 
 and intentionally excludes any separate LLM-backed notebook.
