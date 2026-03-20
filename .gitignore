@@ -2,3 +2,12 @@
 hf_cache/
 __pycache__/
 .ipynb_checkpoints/
+# Large files
+*.pth
+*.npz
+*.pkl
+*.pdf
+
+
+all_europarl_english_sentences.txt
+
